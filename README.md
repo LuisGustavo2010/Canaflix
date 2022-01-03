@@ -1,10 +1,10 @@
 # Bootcamp HTML Developer
-<h2> 💡 O que é isso ?</h2>
-    <h3>"Desafio proporcionado pelo @iuricode para treinamento de habilidades com HTML5 e CSS3"</h3>
+<h2> O que é isso ? 😎</h2>
+    <h3>Desafio proporcionado pela Digital Innovation One para treinamento de habilidades com Jvascript, HTML5 e CSS3</h3>
 <div>
-  <h2> 🔍 Dá uma olhada:</h2>
-  <img src="\img\Preview.png" />
-  <h5 align="center"><a href="https://canaflix.netlify.app/">ACESSE AQUI O PROJETO!</a> </h5>
+  <h2> Veja como ficou!! 🔍</h2>
+  <img src="https://github.com/LuisGustavo2010/Canaflix/blob/main/img/Preview.png?raw=true" />
+  <h5 align="center"><a href="https://canaflix.netlify.app/">Confira aqui o site!</a> </h5>
 </div>
 
 <div>
