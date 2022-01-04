@@ -144,10 +144,10 @@ header nav a:hover{
 }
 
 .download{
-
+    margin-top: 10px;
     width: 40px;
-    margin-left: 50%;
-
+    height:50%;
+    margin: auto;   
 }
 
 .cana{
