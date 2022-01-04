@@ -1,6 +1,6 @@
 # Bootcamp HTML Developer
 <h2> O que é isso ? 😎</h2>
-    <h3>Desafio proporcionado pela Digital Innovation One para treinamento de habilidades com Javascript, HTML5 e CSS3</h3>
+    Desafio proporcionado pela Digital Innovation One para treinamento de habilidades com Javascript, HTML5 e CSS3
 <div>
   <h2> Veja como ficou!! 🔍</h2>
   <img src="https://github.com/LuisGustavo2010/Canaflix/blob/main/img/Preview.png?raw=true" />
