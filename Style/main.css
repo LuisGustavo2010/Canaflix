@@ -1,0 +1,165 @@
+:root{
+    --vermelho:#d210eb;
+    --preta:#141414;
+}
+
+/* elementos base */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Muli',sans-serif;
+    color: white;
+}
+
+
+header .container{
+    font-family: 'Muli',sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size:larger;
+
+}
+
+header .logo{
+    cursor: pointer;
+    float: left;
+    background: linear-gradient(70deg, rgba(246, 246, 248, 0.74) 57%, rgb(248, 203, 4) 100px);  
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Muli',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/* filme principal */
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/Fundo-cana-de-acucar-1000x600.jpg');
+    width: auto;
+    height:500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .Description{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    transition: 1.5s ease all;
+}
+
+.titulo{
+    margin-top: 30;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+
+}
+.stars {
+    position: relative;
+    width: 285px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color:white;
+    padding:10px 20px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: 1.5s ease all;
+    border-radius: 50px;
+    object-position: center;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    width: 130px;
+    height: 130px;
+
+    display: block;
+}
+
+.carrosel-fimes{
+    margin-top: 30;
+}
+
+.TT1{
+    margin-top: 30;
+    font-size: 60px;
+    font-family: 'Muli',sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.cana{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(22, 20, 20);
+}
+
+.Description1{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.c_rodape {
+    overflow: hidden;
+    position: center;
+    padding: 30px 0px;
+    background-color: azure;
+}
+
+.c_socialmidia {
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+}
+
+.c_socialmidia img {
+    width: 40px;
+    top: 50%;
+    margin-left: 8px;
+}
