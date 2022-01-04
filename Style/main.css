@@ -28,6 +28,7 @@ header .container{
 }
 
 header .logo{
+    transition: 1.5s ease-in-out;
     cursor: pointer;
     float: left;
     background: linear-gradient(70deg, rgba(246, 246, 248, 0.74) 57%, rgb(248, 203, 4) 100px);  
@@ -76,10 +77,12 @@ header nav a:hover{
 
 }
 .stars {
+
     position: relative;
     width: 285px;
     overflow: hidden;
     margin-bottom: 5px;
+    transition: 1.5s ease all;
 }
 
 .botao{
@@ -114,7 +117,6 @@ header nav a:hover{
 .box-filme{
     width: 130px;
     height: 130px;
-
     display: block;
 }
 
@@ -123,11 +125,13 @@ header nav a:hover{
 }
 
 .Texto1{
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
 
 }
+
 .TT1{
-    margin-top: 30;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
     font-size: 60px;
     font-family: 'Muli',sans-serif;
     justify-content: center;
@@ -139,20 +143,26 @@ header nav a:hover{
     
 }
 
+.download{
+
+    width: 40px;
+    margin-left: 50%;
+
+}
+
 .cana{
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     margin-top: 10px;
     text-align: center;
     background-color: rgb(255, 255, 255);
 
 }
 
-
 .Description1{
     text-align: center;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     margin-top: 10px;
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'Muli',sans-serif;
     color: #000000;
@@ -165,7 +175,7 @@ header nav a:hover{
     overflow: hidden;
     position: center;
     padding: 30px 0px;
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
 }
 
 .c_socialmidia {
@@ -175,7 +185,8 @@ header nav a:hover{
 }
 
 .c_socialmidia img {
-    width: 40px;
+    width: 30px;
     top: 50%;
-    margin-left: 8px;
+    margin-left: 30px;
+
 }
