@@ -26,14 +26,18 @@
         margin-top: 10px;
         background: rgb(248, 203, 4) 100px;  
         color: transparent;
-        -webkit-background-clip: text;
-
-        
+        -webkit-background-clip: text;        
     }
 
     .imgCana{
         width: 50%;
         height:50%;
+    }
+
+    .download{
+        width: 40px;
+        height:50%;
+        margin-left: 50%;
     }
 }
 
