@@ -16,6 +16,21 @@
     object-position: center;
     }
 
+    .TT1{
+        margin-top: 30;
+        font-size: 60px;
+        font-family: 'Muli',sans-serif;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 10px;
+        background: rgb(248, 203, 4) 100px;  
+        color: transparent;
+        -webkit-background-clip: text;
+
+        
+    }
+
     .imgCana{
         width: 50%;
         height:50%;
