@@ -43,6 +43,7 @@ header nav a{
     text-decoration: none;
     color:#AAA;
     margin-right: 10px;
+    font-size: 15px;
 }
 
 header nav a:hover{
